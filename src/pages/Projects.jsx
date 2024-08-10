@@ -37,7 +37,7 @@ const Projects = () => {
           </section><br />
           <h2 className="text-xl font-semibold">{project.title}</h2>
           <p className="text-lg">{project.description}</p><br />
-          <p><a href={project.repositoryLink} target="_blank">Peek</a> </p>
+          <p><a href={project.repositoryLink} target="_blank">Code</a> </p>
         </section>
       ))}
     </main>
