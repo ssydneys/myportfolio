@@ -6,8 +6,7 @@ const Contact = () => {
     const email = data.email;
     const body = data.body;
     const subject = data.subject;
-    // The myEmail variable should be replaced with your email address
-    const myEmail= "replace with your email address";
+    const myEmail= "test@sharklasers.com";
     const mailToLink = `mailto:${myEmail}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent("From: " + email + ", Message: " + body)}`;
     window.location.href = mailToLink;
   }
@@ -18,7 +17,7 @@ const Contact = () => {
       <p className="text-lg text-center">Reach out below!</p><br />
       <form onSubmit={handleSubmit(onSubmit)}>
       <label htmlFor="email">
-          Email: <input
+          Email <input
           {...register("email", { required: true })}
           type="email" 
           id="email" 
@@ -27,7 +26,7 @@ const Contact = () => {
           />
         </label>
         <label htmlFor="subject">
-          Subject: <input 
+          Subject <input 
           {...register("subject", { required: true })}
           type="text" 
           id="subject"
@@ -36,7 +35,7 @@ const Contact = () => {
           />
         </label>
         <label htmlFor="body">
-          Message: 
+          Message 
           <textarea
           {...register("body", { required: true })}
           id="body" 

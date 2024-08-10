@@ -14,7 +14,7 @@ const About = () => {
       <main className="home-container">
         <section className="home-hero home-subsection">
           {/* <h2 className="text-4xl mb-2">Hi, I'm Sydney</h2> */}
-          <p className="subsection-paragraph">I&apos;m Sydney and I&apos;m a junior full-stack developer looking for new opportunities. I&apos;m particularly interested in UX/UI design and</p>
+          <p className="subsection-paragraph">I&apos;m Sydney and I&apos;m a junior full-stack developer looking for new opportunities. I&apos;m particularly interested in UX/UI design and learning more about blending creativity with technology.</p>
           <p className="subsection-paragraph">Like to know more?</p>
           <NavLink to="/contact">
           Say hi
