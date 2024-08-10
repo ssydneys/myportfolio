@@ -38,6 +38,9 @@
       // box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
       // transform: translateY(-0.5px);
     }
+    .skillHead {
+      font-size: 1.5rem;
+    }
   }
   .home-hero {
     position: relative;
@@ -54,4 +57,44 @@
   .overview {
     background-color: whitesmoke;
   }
+.skillIcon {
+  color: #967BB6;
+  margin-right: 5px;
+}
+
+  // ul {
+  //   list-style: none;
+  //   padding: 0;
+  // }
+  
+  // li {
+  //   font-size: 1.2rem;
+  //   display: flex; 
+  //   align-items: center; 
+  //   margin-bottom: 10px;
+  // }
+  
+  // li i {
+  //   font-size: 1.5rem; 
+  //   margin-right: 10px; 
+  //   color: #333;
+  // }
+
+  .skillsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px;
+    width: 700px;
+}
+
+.header {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.skillWrap{
+  align-items: center;
+  text-align: center;
+}
 }

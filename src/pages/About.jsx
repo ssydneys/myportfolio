@@ -1,20 +1,33 @@
 import { NavLink } from 'react-router-dom';
-// import PlaceholderImage from '../assets/placeholder_image.png';
-// const firstName = 'Sydney';
-// const jobTitle = 'Replace with your title';
-// const company = 'Replace with your company name';
-// const mainDuty = 'Replace with your main duty';
-// const jobLocation = 'Replace with your job location';
-// const briefJobDescription = 'Replace with a brief description of your job';
-// const careerObjective = 'Replace with your career objective';
-// const personalLife = 'Replace with a brief description of your personal life';
+import { FaHtml5, FaJs, FaNodeJs, FaReact, FaSquareGit, FaFigma } from "react-icons/fa6";
 
 const About = () => {
     return (
       <main className="home-container">
         <section className="home-hero home-subsection">
           {/* <h2 className="text-4xl mb-2">Hi, I'm Sydney</h2> */}
-          <p className="subsection-paragraph">I&apos;m Sydney and I&apos;m a junior full-stack developer looking for new opportunities. I&apos;m particularly interested in UX/UI design and learning more about blending creativity with technology.</p>
+          <p className="subsection-paragraph">
+          As a full-stack developer, I enjoy tackling both front-end and back-end challenges, but I'm particularly excited by the intersection of technology and creativity.</p>
+          <p className="skillHead"></p><br />
+          <div className="skillWrap">
+          <div className="skillsContainer">
+          <div className="header"><FaHtml5 className="skillIcon" />HTML5/CSS</div><br />
+          <div className="header"><FaJs className="skillIcon" />Javascript</div><br />
+          <div className="header"><FaNodeJs className="skillIcon" />Node.js</div><br />
+          </div>          
+          <div className="skillsContainer">
+          <div className="header"><FaReact className="skillIcon" />React</div><br />
+          <div className="header"><FaSquareGit className="skillIcon" />Git</div><br />
+          <div className="header"><FaFigma className="skillIcon" />Figma</div><br />
+          </div></div>
+          {/* <ul>
+            <li><FaHtml5 className="skillIcon" />HTML5/CSS</li>
+            <li>Javascript</li>
+            <li>Node.js</li>
+            <li>React</li>
+            <li></li>
+          </ul> */}
+          <br /><br />
           <p className="subsection-paragraph">Like to know more?</p>
           <NavLink to="/contact">
           Say hi

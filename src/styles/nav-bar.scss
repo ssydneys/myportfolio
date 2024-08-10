@@ -18,7 +18,7 @@
     a {
       margin-left: 20px;
       display: inline-block;
-      padding: 6px 15px 6px 15px;
+      padding: 5px 15px 5px 15px;
       text-decoration: none;
       color: white;
       background-color: #967BB6;
@@ -26,6 +26,20 @@
       transition: all 0.3s ease;
     }
   }
+  .bigName {
+    margin-left: 20px;
+    margin-right: 20px;
+    // display: inline-block;
+    // padding: 6px 15px 6px 15px;
+    background-color: #967BB6;
+    color: white;
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
+
+.nameName {
+  background-color: #967BB6;
+}
   .sm-active {
     display: flex;
     @media screen and (min-width: $laptop) {

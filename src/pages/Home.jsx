@@ -7,7 +7,7 @@ const Home = () => {
     <main className="home-container">
       <section className="home-hero home-subsection">
         <h2 className="text-4xl mb-2">Hi, I&apos;m {firstName} &#10024;</h2>
-        <p className="subsection-paragraph">and I&apos;m a junior full-stack developer.</p>
+        <p className="subsection-paragraph">and I&apos;m a full-stack developer.</p>
         <NavLink to="/contact">
         Get in touch
         </NavLink>
@@ -15,7 +15,7 @@ const Home = () => {
       {/* <section className="overview home-subsection">
         <h3 className="subsection-intro-header">Introduction</h3>
         <h2 className="subsection-big-header">Overview.</h2>
-        <p className="subsection-paragraph">{professionalSummary}</p>
+        <p className="subsection-paragraph"></p>
         <NavLink to="/about">
         Learn More About Me
         </NavLink>

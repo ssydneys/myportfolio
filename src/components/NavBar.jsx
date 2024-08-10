@@ -30,7 +30,12 @@ const NavBar = () => {
   const [open, setOpen] = useState(false);
   return (
     <nav className="navigation px-4 py-2">
+      <section className="nameName">
+        <h1 className="bigName">Sydney</h1>
+        {/* <DownloadResume /> */}
+      </section>
       <section className="lg-links">
+        {/* <h1 className="bigName">Sydney &#10024;</h1><br /> */}
         <NavLink to="/">Home</NavLink>
         <NavLink to="/about">About</NavLink>
         <NavLink to="/projects">Projects</NavLink>
@@ -53,7 +58,7 @@ const NavBar = () => {
       animate={open ? 'open' : 'closed'}
       >
         <section className="flex flex-row items-center justify-between border-b-2 border-black">
-          <h2 className="text-2xl font-semibold mb-2">Navigation</h2>
+          {/* <h2 className="text-2xl font-semibold mb-2">Navigation</h2> */}
           <button 
           type="button" 
           onClick={() => setOpen(false)}
